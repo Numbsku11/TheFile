@@ -39,28 +39,29 @@ int Startup(){
             << "Are you ready to start?\n\n"
             << "1. Yes\n"
             << "2. No\n\n\n";
-        std::cin >> StartMenuSelection;
-    silly selection system :3
+            std::cin >> StartMenuSelection;
+            // silly selection system :3
 
-        switch (StartMenuSelection){
+            switch (StartMenuSelection){
 
 
-            case 1:
-                FileExport();
-            break;
+                case 1:
+                    FileExport();
+                break;
 
-            case 2:
-                std::cout << std::endl << "\nPress any key to exit";
-                std::cin.get();
-                return 1;
-            break;
+                case 2:
+                    std::cout << std::endl << "\nPress any key to exit";
+                    std::cin.get();
+                    return 1;
+                break;
 
-            default:
-                std::cout << "Hey pal, fix\n\n";
-                StartMenuSelection =- StartMenuSelection; 
-            break;
-        } // swtich case to check selection
-    }
+                default:
+                    std::cout << "Hey pal, fix\n\n";
+                    StartMenuSelection =- StartMenuSelection; 
+                break;
+            } // swtich case to check selection
+        }
+    
     return 0;
 }
 
