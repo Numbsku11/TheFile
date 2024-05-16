@@ -1,8 +1,8 @@
 #include "ILoveClass.h"
 
 int FileExport(){
-    std::ifstream trolled:
-    trolled.open("Fuck you.txt", std::ifstream::in)
+    std::ifstream trolled;
+    trolled.open("Fuck you.txt", std::ifstream::in);
 
 
     /*
@@ -44,7 +44,6 @@ int Startup(){
 
             switch (StartMenuSelection){
 
-
                 case 1:
                     FileExport();
                 break;
@@ -59,7 +58,7 @@ int Startup(){
                     std::cout << "Hey pal, fix\n\n";
                     StartMenuSelection =- StartMenuSelection; 
                 break;
-            } // swtich case to check selection
+            } // switch case to check selection
         }
     
     return 0;
