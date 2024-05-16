@@ -1,8 +1,10 @@
 #include "ILoveClass.h"
 
 int FileExport(){
-    std::ifstream trolled ()
-    
+    std::ifstream trolled:
+    trolled.open("Fuck you.txt", std::ifstream::in)
+
+
     /*
     << "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⠛⠛⠛⠿⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n"
     << "⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⡀⠠⠤⠒⢂⣉⣉⣉⣑⣒⣒⠒⠒⠒⠒⠒⠒⠒⠀⠀⠐⠒⠚⠻⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿\n"
@@ -38,8 +40,10 @@ int Startup(){
             << "1. Yes\n"
             << "2. No\n\n\n";
         std::cin >> StartMenuSelection;
-    // silly selection system :3
+    silly selection system :3
+
         switch (StartMenuSelection){
+
 
             case 1:
                 FileExport();
